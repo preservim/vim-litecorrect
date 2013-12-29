@@ -3,19 +3,19 @@
 > Lightweight auto-correction for Vim
 
 We type `teh` when we meant to type `the`. This plugin is to help us catch
-the most common of these typos and correct each upon hitting the space
-bar.
+the most common of these typos and correct each upon hitting the space bar
+(or non-keyword character.)
 
 Features of this plugin:
 
 * Focused on the most common of typos that we make
 * Uses Vim’s `iabbrev`
-* Buffer-scoped
+* Buffer-scoped behavior
 * User-extendable
 
 Note that this plugin is not a replacement for teh spell checker in Vim.
 
-This plugin defines the most common typos we make along with their corrections:
+The default typos and their corrections are stored in a global dictionary:
 
   ```
   let g:litecorrect#defaults =
@@ -29,8 +29,8 @@ This plugin defines the most common typos we make along with their corrections:
         \}
   ```
 
-Note that the corrections are the keys, with the misspellings for each stored
-in a list.
+Note that the corrections are stored as key-value entries where the value
+is a list of the common misspellings for the key.
 
 ## Requirements
 
@@ -55,7 +55,7 @@ in `markdown` and `textile` files, place in your `.vimrc`:
   augroup END
   ```
 
-Alternatively, you can build on the defaults by provide your own corrections:
+Alternatively, you can build on the defaults by providing your own corrections:
 
   ```
   let user_dict = {
@@ -66,6 +66,7 @@ Alternatively, you can build on the defaults by provide your own corrections:
   augroup litecorrect
     autocmd!
     autocmd FileType markdown call litecorrect#init(user_dict)
+    autocmd FileType textile call litecorrect#init(user_dict)
   augroup END
   ```
 
@@ -78,10 +79,12 @@ prevail.
 Suggestions for adding to the defaults are welcome, but good evidence is
 needed that they are common typos.
 
-## See also
+## Related
 
 For a more comprehensive approach, check out
 [vim-autocorrect](https://github.com/panozzaj/vim-autocorrect).
+
+## See also
 
 If you like this plugin, you may like these other ones from the same author:
 
