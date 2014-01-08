@@ -24,6 +24,7 @@ let g:litecorrect#defaults =
       \ 'this' : ['htis'],
       \ 'then' : ['tehn'],
       \ 'what' : ['waht'],
+      \ 'of'   : ['fo'],
       \}
 
 function! litecorrect#init(...)
