@@ -48,6 +48,11 @@ configure this plugin per file type. For example, to enable litecorrect support
 in `markdown` and `textile` files, place in your `.vimrc`:
 
   ```vim
+  " standard vim command to enable loading the plugin files 
+  " (and their indent support) for specific file types.
+  " It may already be in your .vimrc!
+  filetype plugin indent on
+
   augroup litecorrect
     autocmd!
     autocmd FileType markdown call litecorrect#init()
@@ -89,12 +94,12 @@ For a more comprehensive approach, check out
 If you find this plugin useful, you may want to check out these others by
 the same author:
 
-* [vim-colors-pencil][cp] — Color scheme for Vim inspired by IA Writer
-* [vim-lexical][lx] - Building on Vim’s spell-check and thesaurus/dictionary completion
-* [vim-pencil][pn] - Rethinking Vim as a tool for writers
+* [vim-colors-pencil][cp] — color scheme for Vim inspired by IA Writer
+* [vim-lexical][lx] - building on Vim’s spell-check and thesaurus/dictionary completion
+* [vim-pencil][pn] - rethinking Vim as a tool for writers
 * [vim-quotable][qu] - Extends Vim to support typographic (‘curly’) quotes
-* [vim-thematic][th] —  appearance to suit your task and environment 
-* [vim-wordy][wo] - Uncovering potential usage problems in writing 
+* [vim-thematic][th] —  modify Vim’s appearance to suit your task and environment 
+* [vim-wordy][wo] - uncovering usage problems in writing 
 
 [cp]: http://github.com/reedes/vim-colors-pencil
 [lx]: http://github.com/reedes/vim-lexical
