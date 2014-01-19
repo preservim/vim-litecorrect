@@ -91,7 +91,6 @@ the same author:
 
 * [vim-colors-pencil][cp] — Color scheme for Vim inspired by IA Writer
 * [vim-lexical][lx] - Building on Vim’s spell-check and thesaurus/dictionary completion
-* [vim-litecorrect][lc] - Lightweight auto-correction for Vim
 * [vim-pencil][pn] - Rethinking Vim as a tool for writers
 * [vim-quotable][qu] - Extends Vim to support typographic (‘curly’) quotes
 * [vim-thematic][th] —  appearance to suit your task and environment 
@@ -99,7 +98,6 @@ the same author:
 
 [cp]: http://github.com/reedes/vim-colors-pencil
 [lx]: http://github.com/reedes/vim-lexical
-[lc]: http://github.com/reedes/vim-litecorrect
 [pn]: http://github.com/reedes/vim-pencil
 [qu]: http://github.com/reedes/vim-quotable
 [th]: http://github.com/reedes/vim-thematic
