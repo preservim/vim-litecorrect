@@ -12,7 +12,7 @@ Features of this plugin:
 * Uses Vim’s `iabbrev`
 * Buffer-scoped behavior
 * User-extensible 
-* Limited to a maximum of 500 entries for quick load (currently at ~450)
+* Limited to a maximum of 500 entries for quick load (currently at ~350)
 
 Note that this plugin is not intended to be a replacement for teh spell
 checker in Vim. It’s best used with spell-check enabled.
