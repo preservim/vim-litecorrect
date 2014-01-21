@@ -8,11 +8,10 @@ the most common of these typos and correct each upon hitting the space bar
 
 Features of this plugin:
 
-* Focused on the most common of typos that we make
-* Uses Vim’s `iabbrev`
+* Focused on the most common of typos
+* Pure Vimscript where mechanism is `iabbrev`
+* Limited to a maximum of 350 default entries for quick load (now near that limit)
 * Buffer-scoped behavior
-* User-extensible 
-* Limited to a maximum of 500 entries for quick load (currently at ~350)
 
 Note that this plugin is not intended to be a replacement for teh spell
 checker in Vim. It’s best used with spell-check enabled.
@@ -81,8 +80,8 @@ keep within the stated limit.
 For a more comprehensive approach with support for _many_ more words,
 check out:
 
-* [vim-autocorrect](https://github.com/panozzaj/vim-autocorrect)
-* [wordlist.vim](https://github.com/vim-scripts/wordlist.vim)
+* [wordlist.vim](https://github.com/vim-scripts/wordlist.vim) - 800+ entries
+* [vim-autocorrect](https://github.com/panozzaj/vim-autocorrect) - 12K+ entries!
 
 A warning that larger entry counts make for slower loading.
 
