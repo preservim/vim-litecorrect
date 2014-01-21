@@ -292,7 +292,6 @@ function! litecorrect#init(...)
   ia <buffer> wokr work
   ia <buffer> woudl would
   ia <buffer> wouldbe would be
-  ia <buffer> write write
   ia <buffer> writting writing
   ia <buffer> wrod word
   ia <buffer> wroet wrote
@@ -309,6 +308,7 @@ function! litecorrect#init(...)
   ia <buffer> yuor your
 
   if s:unicode_enabled()
+    ia <buffer> Im I’m
     ia <buffer> couldnt couldn’t
     ia <buffer> didnt didn’t
     ia <buffer> doesnt doesn’t
@@ -322,6 +322,7 @@ function! litecorrect#init(...)
     ia <buffer> wouldnt wouldn’t
     ia <buffer> youve you’ve
   else
+    ia <buffer> Im I'm
     ia <buffer> couldnt couldn't
     ia <buffer> didnt didn't
     ia <buffer> doesnt doesn't
