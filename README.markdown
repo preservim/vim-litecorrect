@@ -10,7 +10,7 @@ Features of this plugin:
 
 * Focused on the most common of typos
 * Pure Vimscript where mechanism is `iabbrev`
-* Limited to a maximum of 350 default entries for quick load (now near that limit)
+* Included entries limited to a maximum of 300 for fast loading
 * Buffer-scoped behavior
 
 Note that this plugin is not intended to be a replacement for teh spell
@@ -64,16 +64,13 @@ where the value is a list of the common misspellings for the key.
 The corrections you provide will be in addition to the defaults. Where
 there’s a conflict, your correction will prevail.
 
-## Criteria to add to defaults
+## Criteria to modify defaults
 
-Suggestions for adding to the defaults are welcome, but good evidence is
-needed that they are common typos.
+Note that the number of default entries will be limited to 300 for fast
+loading.
 
-Short words are preferable to long words to avoid the list becoming too
-large and slow to load.
-
-Note that existing entries may be removed to make way for new ones, to
-keep within the stated limit.
+Suggestions for improving the defaults are welcome, but good evidence is
+needed that a suggested typo is more common than one we will drop.
 
 ## Related projects
 

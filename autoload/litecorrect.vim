@@ -20,15 +20,9 @@ endfunction
 function! litecorrect#init(...)
   ia <buffer> TEh The
   ia <buffer> Teh The
-  ia <buffer> abbout about
   ia <buffer> abotu about
-  ia <buffer> abouta about a
-  ia <buffer> aboutit about it
-  ia <buffer> aboutthe about the
   ia <buffer> acn can
   ia <buffer> adn and
-  ia <buffer> afterthe after the
-  ia <buffer> aganist against
   ia <buffer> agian again
   ia <buffer> ahppen happen
   ia <buffer> ahve have
@@ -48,11 +42,9 @@ function! litecorrect#init(...)
   ia <buffer> amde made
   ia <buffer> amke make
   ia <buffer> amkes makes
-  ia <buffer> andone and one
   ia <buffer> andteh and the
   ia <buffer> andthe and the
   ia <buffer> anothe another
-  ia <buffer> appeares appears
   ia <buffer> arond around
   ia <buffer> asthe as the
   ia <buffer> atthe at the
@@ -64,10 +56,6 @@ function! litecorrect#init(...)
   ia <buffer> beacuse because
   ia <buffer> becasue because
   ia <buffer> becaus because
-  ia <buffer> becausea because a
-  ia <buffer> becauseof because of
-  ia <buffer> becausethe because the
-  ia <buffer> becauseyou because you
   ia <buffer> becuase because
   ia <buffer> becuse because
   ia <buffer> befoer before
@@ -76,11 +64,9 @@ function! litecorrect#init(...)
   ia <buffer> bve be
   ia <buffer> chaneg change
   ia <buffer> chanegs changes
-  ia <buffer> cheif chief
   ia <buffer> chekc check
   ia <buffer> chnage change
   ia <buffer> claer clear
-  ia <buffer> claered cleared
   ia <buffer> claerly clearly
   ia <buffer> cna can
   ia <buffer> comming coming
@@ -91,7 +77,6 @@ function! litecorrect#init(...)
   ia <buffer> coudl could
   ia <buffer> couldthe could the
   ia <buffer> cpoy copy
-  ia <buffer> cxan can
   ia <buffer> deatils details
   ia <buffer> didnot did not
   ia <buffer> doese does
@@ -99,16 +84,12 @@ function! litecorrect#init(...)
   ia <buffer> doimg doing
   ia <buffer> donid doing
   ia <buffer> donig doing
-  ia <buffer> drnik drink
   ia <buffer> efel feel
   ia <buffer> ehr her
   ia <buffer> esle else
   ia <buffer> eyt yet
-  ia <buffer> feild field
-  ia <buffer> feilds fields
   ia <buffer> fianlly finally
   ia <buffer> fidn find
-  ia <buffer> finalyl finally
   ia <buffer> firts first
   ia <buffer> fo of
   ia <buffer> follwo follow
@@ -119,7 +100,6 @@ function! litecorrect#init(...)
   ia <buffer> fro for
   ia <buffer> fromthe from the
   ia <buffer> fwe few
-  ia <buffer> gaurd guard
   ia <buffer> gerat great
   ia <buffer> gievn given
   ia <buffer> goign going
@@ -135,7 +115,6 @@ function! litecorrect#init(...)
   ia <buffer> hda had
   ia <buffer> hewas he was
   ia <buffer> hge he
-  ia <buffer> hismelf himself
   ia <buffer> hlep help
   ia <buffer> hsa has
   ia <buffer> hsi his
@@ -147,7 +126,6 @@ function! litecorrect#init(...)
   ia <buffer> hting thing
   ia <buffer> htink think
   ia <buffer> htis this
-  ia <buffer> httpL http:
   ia <buffer> hvae have
   ia <buffer> hvaing having
   ia <buffer> hwich which
@@ -173,7 +151,6 @@ function! litecorrect#init(...)
   ia <buffer> konw know
   ia <buffer> konwn known
   ia <buffer> konws knows
-  ia <buffer> lastyear last year
   ia <buffer> lenght length
   ia <buffer> liek like
   ia <buffer> liekd liked
@@ -189,7 +166,6 @@ function! litecorrect#init(...)
   ia <buffer> mkaing making
   ia <buffer> moeny money
   ia <buffer> mroe more
-  ia <buffer> myfles myself
   ia <buffer> mysefl myself
   ia <buffer> myu my
   ia <buffer> nkow know
@@ -206,8 +182,6 @@ function! litecorrect#init(...)
   ia <buffer> oneof one of
   ia <buffer> onthe on the
   ia <buffer> onyl only
-  ia <buffer> optoin option
-  ia <buffer> optoins options
   ia <buffer> otehr other
   ia <buffer> otu out
   ia <buffer> outof out of
@@ -216,7 +190,6 @@ function! litecorrect#init(...)
   ia <buffer> owuld would
   ia <buffer> partof part of
   ia <buffer> peice piece
-  ia <buffer> peices pieces
   ia <buffer> peolpe people
   ia <buffer> peopel people
   ia <buffer> perhasp perhaps
@@ -227,8 +200,6 @@ function! litecorrect#init(...)
   ia <buffer> reult result
   ia <buffer> reveiw review
   ia <buffer> rwite write
-  ia <buffer> saidhe said he
-  ia <buffer> saidit said it
   ia <buffer> saidthat said that
   ia <buffer> saidthe said the
   ia <buffer> seh she
@@ -237,7 +208,6 @@ function! litecorrect#init(...)
   ia <buffer> showinf showing
   ia <buffer> simalar similar
   ia <buffer> similiar similar
-  ia <buffer> simpyl simply
   ia <buffer> sitll still
   ia <buffer> smae same
   ia <buffer> smoe some
@@ -249,13 +219,8 @@ function! litecorrect#init(...)
   ia <buffer> somewaht somewhat
   ia <buffer> somthing something
   ia <buffer> somtimes sometimes
-  ia <buffer> soudn sound
-  ia <buffer> soudns sounds
   ia <buffer> stnad stand
-  ia <buffer> stopry story
-  ia <buffer> stoyr story
   ia <buffer> stpo stop
-  ia <buffer> stroy story
   ia <buffer> tahn than
   ia <buffer> taht that
   ia <buffer> talekd talked
@@ -268,18 +233,13 @@ function! litecorrect#init(...)
   ia <buffer> tghis this
   ia <buffer> thansk thanks
   ia <buffer> thatthe that the
-  ia <buffer> thefirst the first
-  ia <buffer> themself themselves
-  ia <buffer> themselfs themselves
   ia <buffer> thenew the new
   ia <buffer> theri their
   ia <buffer> thesame the same
-  ia <buffer> thetwo the two
   ia <buffer> thgat that
   ia <buffer> thge the
   ia <buffer> thier their
   ia <buffer> thigsn things
-  ia <buffer> thisyear this year
   ia <buffer> thme them
   ia <buffer> thna than
   ia <buffer> thne then
@@ -290,26 +250,20 @@ function! litecorrect#init(...)
   ia <buffer> thta that
   ia <buffer> tihs this
   ia <buffer> timne time
-  ia <buffer> tiogether together
   ia <buffer> tje the
   ia <buffer> tjhe the
   ia <buffer> tkae take
   ia <buffer> tkaes takes
   ia <buffer> tkaing taking
-  ia <buffer> tlaking talking
   ia <buffer> ot to
   ia <buffer> todya today
-  ia <buffer> togehter together
   ia <buffer> tothe to the
   ia <buffer> towrad toward
-  ia <buffer> truely truly
-  ia <buffer> truley truly
   ia <buffer> tryed tried
   ia <buffer> tthe the
   ia <buffer> tyhat that
   ia <buffer> tyhe the
   ia <buffer> unliek unlike
-  ia <buffer> untilll until
   ia <buffer> useing using
   ia <buffer> usualyl usually
   ia <buffer> veyr very
@@ -356,12 +310,10 @@ function! litecorrect#init(...)
 
   if s:unicode_enabled()
     ia <buffer> couldnt couldn’t
-    ia <buffer> didint didn’t
     ia <buffer> didnt didn’t
     ia <buffer> doesnt doesn’t
     ia <buffer> dont don’t
     ia <buffer> hasnt hasn’t
-    ia <buffer> shouldent shouldn’t
     ia <buffer> shouldnt shouldn’t
     ia <buffer> thats that’s
     ia <buffer> theyll they’ll
@@ -371,12 +323,10 @@ function! litecorrect#init(...)
     ia <buffer> youve you’ve
   else
     ia <buffer> couldnt couldn't
-    ia <buffer> didint didn't
     ia <buffer> didnt didn't
     ia <buffer> doesnt doesn't
     ia <buffer> dont don't
     ia <buffer> hasnt hasn't
-    ia <buffer> shouldent shouldn't
     ia <buffer> shouldnt shouldn't
     ia <buffer> thats that's
     ia <buffer> theyll they'll
