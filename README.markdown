@@ -12,7 +12,7 @@ Features of this plugin:
 * Uses Vim’s `iabbrev`
 * Buffer-scoped behavior
 * User-extensible 
-* Limited to a maximum of 500 `iabbrev`s for quick load (currently at ~450)
+* Limited to a maximum of 500 entries for quick load (currently at ~450)
 
 Note that this plugin is not intended to be a replacement for teh spell
 checker in Vim. It’s best used with spell-check enabled.
@@ -73,16 +73,18 @@ needed that they are common typos.
 Short words are preferable to long words to avoid the list becoming too
 large and slow to load.
 
-Note that existing `iabbrev`s may be removed to make way for new ones, to
+Note that existing entries may be removed to make way for new ones, to
 keep within the stated limit.
 
-## Related
+## Related projects
 
-For a more comprehensive approach with support for many more words, check
-out:
+For a more comprehensive approach with support for _many_ more words,
+check out:
 
 * [vim-autocorrect](https://github.com/panozzaj/vim-autocorrect)
 * [wordlist.vim](https://github.com/vim-scripts/wordlist.vim)
+
+A warning that larger entry counts make for slower loading.
 
 ## See also
 
