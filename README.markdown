@@ -9,9 +9,9 @@ the most common of these typos and correct each upon hitting the space bar
 Features of this plugin:
 
 * Focused on the most common of typos
-* Pure Vimscript where mechanism is `iabbrev`
-* Included entries limited to a maximum of 300 for fast loading
-* Buffer-scoped behavior
+* Pure Vimscript using the efficient `iabbrev`
+* Included auto-correct entries limited to 300 for fast loading
+* Buffer-scoped behavior (won’t touch global settings)
 
 Note that this plugin is not intended to be a replacement for teh spell
 checker in Vim. It’s best used with spell-check enabled.
@@ -64,21 +64,21 @@ where the value is a list of the common misspellings for the key.
 The corrections you provide will be in addition to the defaults. Where
 there’s a conflict, your correction will prevail.
 
-## Criteria to modify defaults
+## Criteria to modify default entries
 
 Note that the number of default entries will be limited to 300 for fast
 loading.
 
 Suggestions for improving the defaults are welcome, but good evidence is
-needed that a suggested typo is more common than one we will drop.
+needed that a suggested auto-correct entry is more common than the one it
+will replace.
 
 ## Related projects
 
-For a more comprehensive approach with support for _many_ more words,
-check out:
+For a more comprehensive approach with _many_ more entries, check out:
 
-* [wordlist.vim](https://github.com/vim-scripts/wordlist.vim) - 800+ entries
-* [vim-autocorrect](https://github.com/panozzaj/vim-autocorrect) - 12K+ entries!
+* [wordlist.vim](https://github.com/vim-scripts/wordlist.vim) - nearly 800 entries
+* [vim-autocorrect](https://github.com/panozzaj/vim-autocorrect) - over 12K entries! 
 
 A warning that larger entry counts make for slower loading.
 
