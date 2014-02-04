@@ -64,6 +64,26 @@ where the value is a list of the common misspellings for the key.
 The corrections you provide will be in addition to the defaults. Where
 there’s a conflict, your correction will prevail.
 
+### Typographic characters
+
+By default, typographic (or curly) quotes will be used in corrections. For
+example:
+
+```
+Im -> I’m
+shouldnt -> shouldn’t
+thats -> that’s
+```
+
+If you prefer straight quotes, change this setting to 0 in your `.vimrc`:
+
+```
+let g:litecorrect#typographic = 1   " 0=disable, 1=enable (def)
+```
+
+Note that an educating quote plugin like _quotable_ (see below) will
+automatically transform straight quotes to curly ones in your corrections.
+
 ## Criteria to modify default entries
 
 Note that the number of default entries will be limited to 300 for fast

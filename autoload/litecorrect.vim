@@ -307,7 +307,7 @@ function! litecorrect#init(...)
   ia <buffer> yuo you
   ia <buffer> yuor your
 
-  if s:unicode_enabled()
+  if s:unicode_enabled() && g:litecorrect#typographic
     ia <buffer> Im I’m
     ia <buffer> couldnt couldn’t
     ia <buffer> didnt didn’t
