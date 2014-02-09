@@ -81,7 +81,7 @@ If you prefer straight quotes, change this setting to 0 in your `.vimrc`:
 let g:litecorrect#typographic = 1   " 0=disable, 1=enable (def)
 ```
 
-Note that an educating quote plugin like _quotable_ (see below) will
+Note that an educating quote plugin like [vim-textobj-quote][qu] will
 automatically transform straight quotes to curly ones in your corrections.
 
 ## Criteria to modify default entries
