@@ -23,6 +23,8 @@ function! litecorrect#init(...)
   ia <buffer> abotu about
   ia <buffer> acn can
   ia <buffer> adn and
+  ia <buffer> anf and
+  ia <buffer> ans and
   ia <buffer> agian again
   ia <buffer> ahppen happen
   ia <buffer> ahve have
@@ -245,6 +247,7 @@ function! litecorrect#init(...)
   ia <buffer> thne then
   ia <buffer> thnig thing
   ia <buffer> thnigs things
+  ia <buffer> thre there
   ia <buffer> thsi this
   ia <buffer> thsoe those
   ia <buffer> thta that
@@ -265,7 +268,6 @@ function! litecorrect#init(...)
   ia <buffer> tyhe the
   ia <buffer> unliek unlike
   ia <buffer> useing using
-  ia <buffer> usualyl usually
   ia <buffer> veyr very
   ia <buffer> vrey very
   ia <buffer> waht what
@@ -292,15 +294,12 @@ function! litecorrect#init(...)
   ia <buffer> wokr work
   ia <buffer> woudl would
   ia <buffer> wouldbe would be
-  ia <buffer> writting writing
   ia <buffer> wrod word
   ia <buffer> wroet wrote
   ia <buffer> wtih with
   ia <buffer> wuould would
   ia <buffer> wya way
   ia <buffer> yera year
-  ia <buffer> yeras years
-  ia <buffer> yersa years
   ia <buffer> yoiu you
   ia <buffer> youare you are
   ia <buffer> ytou you

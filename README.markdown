@@ -32,14 +32,12 @@ configure this plugin per file type. For example, to enable litecorrect support
 in `markdown` and `textile` files, place in your `.vimrc`:
 
   ```vim
-  " standard vim command to enable loading the plugin files 
-  " (and their indent support) for specific file types.
-  " It may already be in your .vimrc!
-  filetype plugin indent on
+  set nocompatible
+  filetype plugin on       " may already be in your .vimrc
 
   augroup litecorrect
     autocmd!
-    autocmd FileType markdown call litecorrect#init()
+    autocmd FileType markdown,mkd call litecorrect#init()
     autocmd FileType textile call litecorrect#init()
   augroup END
   ```
