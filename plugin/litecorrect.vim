@@ -13,10 +13,6 @@ let g:loaded_litecorrect = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-if !exists('g:litecorrect#typographic')
-  let g:litecorrect#typographic = 1   " 0=disable, 1=enable
-endif
-
 let &cpo = s:save_cpo
 unlet s:save_cpo
 " vim:ts=2:sw=2:sts=2

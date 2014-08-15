@@ -18,13 +18,12 @@ function! s:unicode_enabled()
 endfunction
 
 function! litecorrect#init(...)
+  ia <buffer> Im I'm
   ia <buffer> TEh The
   ia <buffer> Teh The
   ia <buffer> abotu about
   ia <buffer> acn can
   ia <buffer> adn and
-  ia <buffer> anf and
-  ia <buffer> ans and
   ia <buffer> agian again
   ia <buffer> ahppen happen
   ia <buffer> ahve have
@@ -46,7 +45,9 @@ function! litecorrect#init(...)
   ia <buffer> amkes makes
   ia <buffer> andteh and the
   ia <buffer> andthe and the
+  ia <buffer> anf and
   ia <buffer> anothe another
+  ia <buffer> ans and
   ia <buffer> arond around
   ia <buffer> asthe as the
   ia <buffer> atthe at the
@@ -77,15 +78,19 @@ function! litecorrect#init(...)
   ia <buffer> comtain contain
   ia <buffer> comtains contains
   ia <buffer> coudl could
+  ia <buffer> couldnt couldn't
   ia <buffer> couldthe could the
   ia <buffer> cpoy copy
   ia <buffer> deatils details
   ia <buffer> didnot did not
+  ia <buffer> didnt didn't
   ia <buffer> doese does
+  ia <buffer> doesnt doesn't
   ia <buffer> doign doing
   ia <buffer> doimg doing
   ia <buffer> donid doing
   ia <buffer> donig doing
+  ia <buffer> dont don't
   ia <buffer> efel feel
   ia <buffer> ehr her
   ia <buffer> esle else
@@ -112,6 +117,7 @@ function! litecorrect#init(...)
   ia <buffer> hadbeen had been
   ia <buffer> haev have
   ia <buffer> hasbeen has been
+  ia <buffer> hasnt hasn't
   ia <buffer> havebeen have been
   ia <buffer> haveing having
   ia <buffer> hda had
@@ -184,6 +190,7 @@ function! litecorrect#init(...)
   ia <buffer> oneof one of
   ia <buffer> onthe on the
   ia <buffer> onyl only
+  ia <buffer> ot to
   ia <buffer> otehr other
   ia <buffer> otu out
   ia <buffer> outof out of
@@ -207,6 +214,7 @@ function! litecorrect#init(...)
   ia <buffer> seh she
   ia <buffer> shesaid she said
   ia <buffer> shoudl should
+  ia <buffer> shouldnt shouldn't
   ia <buffer> showinf showing
   ia <buffer> simalar similar
   ia <buffer> similiar similar
@@ -234,10 +242,13 @@ function! litecorrect#init(...)
   ia <buffer> tghe the
   ia <buffer> tghis this
   ia <buffer> thansk thanks
+  ia <buffer> thats that's
   ia <buffer> thatthe that the
   ia <buffer> thenew the new
   ia <buffer> theri their
   ia <buffer> thesame the same
+  ia <buffer> theyll they'll
+  ia <buffer> theyve they've
   ia <buffer> thgat that
   ia <buffer> thge the
   ia <buffer> thier their
@@ -258,7 +269,6 @@ function! litecorrect#init(...)
   ia <buffer> tkae take
   ia <buffer> tkaes takes
   ia <buffer> tkaing taking
-  ia <buffer> ot to
   ia <buffer> todya today
   ia <buffer> tothe to the
   ia <buffer> towrad toward
@@ -271,6 +281,7 @@ function! litecorrect#init(...)
   ia <buffer> veyr very
   ia <buffer> vrey very
   ia <buffer> waht what
+  ia <buffer> wasnt wasn't
   ia <buffer> watn want
   ia <buffer> wehn what
   ia <buffer> werre were
@@ -294,6 +305,7 @@ function! litecorrect#init(...)
   ia <buffer> wokr work
   ia <buffer> woudl would
   ia <buffer> wouldbe would be
+  ia <buffer> wouldnt wouldn't
   ia <buffer> wrod word
   ia <buffer> wroet wrote
   ia <buffer> wtih with
@@ -302,39 +314,10 @@ function! litecorrect#init(...)
   ia <buffer> yera year
   ia <buffer> yoiu you
   ia <buffer> youare you are
+  ia <buffer> youve you've
   ia <buffer> ytou you
   ia <buffer> yuo you
   ia <buffer> yuor your
-
-  if s:unicode_enabled() && g:litecorrect#typographic
-    ia <buffer> Im I’m
-    ia <buffer> couldnt couldn’t
-    ia <buffer> didnt didn’t
-    ia <buffer> doesnt doesn’t
-    ia <buffer> dont don’t
-    ia <buffer> hasnt hasn’t
-    ia <buffer> shouldnt shouldn’t
-    ia <buffer> thats that’s
-    ia <buffer> theyll they’ll
-    ia <buffer> theyve they’ve
-    ia <buffer> wasnt wasn’t
-    ia <buffer> wouldnt wouldn’t
-    ia <buffer> youve you’ve
-  else
-    ia <buffer> Im I'm
-    ia <buffer> couldnt couldn't
-    ia <buffer> didnt didn't
-    ia <buffer> doesnt doesn't
-    ia <buffer> dont don't
-    ia <buffer> hasnt hasn't
-    ia <buffer> shouldnt shouldn't
-    ia <buffer> thats that's
-    ia <buffer> theyll they'll
-    ia <buffer> theyve they've
-    ia <buffer> wasnt wasn't
-    ia <buffer> wouldnt wouldn't
-    ia <buffer> youve you've
-  endif
 
   " user overrides
   let l:user_dict = a:0 ? a:1 : {}

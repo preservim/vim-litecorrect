@@ -64,23 +64,23 @@ there’s a conflict, your correction will prevail.
 
 ### Typographic characters
 
-By default, typographic (or curly) quotes will be used in corrections. For
-example:
+By default, straight quotes will be used in corrections. For example:
 
 ```
-Im -> I’m
-shouldnt -> shouldn’t
-thats -> that’s
+Im -> I'm
+shouldnt -> shouldn't
+thats -> that's
 ```
 
-If you prefer straight quotes, change this setting to 0 in your `.vimrc`:
+If you prefer typographic (“curly”) quotes, install an educating quote plugin
+like [vim-textobj-quote][qu] that will automatically transform straight quotes
+to curly ones in your typing, including your corrections. For example:
 
 ```
-let g:litecorrect#typographic = 1   " 0=disable, 1=enable (def)
+I'm -> I’m
+shouldn't -> shouldn’t
+that's -> that’s
 ```
-
-Note that an educating quote plugin like [vim-textobj-quote][qu] will
-automatically transform straight quotes to curly ones in your corrections.
 
 ## Criteria to modify default entries
 
@@ -96,7 +96,7 @@ will replace.
 For a more comprehensive approach with _many_ more entries, check out:
 
 * [wordlist.vim](https://github.com/vim-scripts/wordlist.vim) - nearly 800 entries
-* [vim-autocorrect](https://github.com/panozzaj/vim-autocorrect) - over 12K entries! 
+* [vim-autocorrect](https://github.com/panozzaj/vim-autocorrect) - over 12K entries!
 
 A warning that larger entry counts make for slower loading.
 
@@ -107,13 +107,13 @@ If you find this plugin useful, you may want to check out these others by
 
 * [vim-colors-pencil][cp] - color scheme for Vim inspired by IA Writer
 * [vim-lexical][lx] - building on Vim’s spell-check and thesaurus/dictionary completion
-* [vim-one][vo] - make use of Vim’s _+clientserver_ capabilities 
+* [vim-one][vo] - make use of Vim’s _+clientserver_ capabilities
 * [vim-pencil][pn] - rethinking Vim as a tool for writers
 * [vim-textobj-quote][qu] - extends Vim to support typographic (‘curly’) quotes
 * [vim-textobj-sentence][ts] - improving on Vim's native sentence motion command
-* [vim-thematic][th] - modify Vim’s appearance to suit your task and environment 
+* [vim-thematic][th] - modify Vim’s appearance to suit your task and environment
 * [vim-wheel][wh] - screen-anchored cursor movement for Vim
-* [vim-wordy][wo] - uncovering usage problems in writing 
+* [vim-wordy][wo] - uncovering usage problems in writing
 
 [re]: http://github.com/reedes
 [cp]: http://github.com/reedes/vim-colors-pencil
