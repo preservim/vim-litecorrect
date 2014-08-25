@@ -137,7 +137,6 @@ function! litecorrect#init(...)
   ia <buffer> hvae have
   ia <buffer> hvaing having
   ia <buffer> hwich which
-  ia <buffer> i I
   ia <buffer> idae idea
   ia <buffer> idaes ideas
   ia <buffer> ihs his
