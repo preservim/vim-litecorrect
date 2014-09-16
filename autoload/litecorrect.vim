@@ -175,6 +175,7 @@ function! litecorrect#init(...)
   ia <buffer> mroe more
   ia <buffer> mysefl myself
   ia <buffer> myu my
+  ia <buffer> nad and
   ia <buffer> nkow know
   ia <buffer> nothign nothing
   ia <buffer> nver never

@@ -100,6 +100,10 @@ For a more comprehensive approach with _many_ more entries, check out:
 
 A warning that larger entry counts make for slower loading.
 
+Another approach that builds on [tpope/vim-abolish]:
+
+* [vim-correction](https://github.com/jdelkins/vim-correction)
+
 ## See also
 
 If you find this plugin useful, you may want to check out these others by
