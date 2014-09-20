@@ -62,6 +62,17 @@ where the value is a list of the common misspellings for the key.
 The corrections you provide will be in addition to the defaults. Where
 there’s a conflict, your correction will prevail.
 
+### Correct previous misspelling
+
+Via [Ingo Karkat on Stack Overflow][ik], a command to force the top
+correction on the previous misspelling. Add to your `.vimrc`:
+
+```vim
+inoremap <C-z> <Esc>[s1z=gi
+```
+
+[ik]: http://stackoverflow.com/a/14602013
+
 ### Typographic characters
 
 By default, straight quotes will be used in corrections. For example:
