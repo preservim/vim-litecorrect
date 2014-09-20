@@ -64,14 +64,17 @@ there’s a conflict, your correction will prevail.
 
 ### Correct previous misspelling
 
-Via [Ingo Karkat on Stack Overflow][ik], a command to force the top
-correction on the previous misspelling. Add to your `.vimrc`:
+A handy command to force the top correction on the first misspelled word before
+the cursor. Add to your `.vimrc` with a key mapping of your choice:
 
 ```vim
-inoremap <C-z> <Esc>[s1z=gi
+nnoremap <C-s> [s1z=<c-o>
+inoremap <C-s> <c-g>u<Esc>[s1z=`]A<c-g>u
 ```
 
-[ik]: http://stackoverflow.com/a/14602013
+This will preserve undo points.
+
+Note that _litecorrect_ does not map any keys.
 
 ### Typographic characters
 
