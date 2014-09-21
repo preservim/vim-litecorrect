@@ -25,30 +25,21 @@ function! litecorrect#init(...)
   ia <buffer> acn can
   ia <buffer> adn and
   ia <buffer> agian again
-  ia <buffer> ahppen happen
+  ia <buffer> ahev have
   ia <buffer> ahve have
-  ia <buffer> alawys always
-  ia <buffer> allready already
-  ia <buffer> almots almost
-  ia <buffer> almsot almost
-  ia <buffer> alomst almost
+  ia <buffer> alos also
   ia <buffer> alot a lot
-  ia <buffer> alraedy already
-  ia <buffer> alreayd already
-  ia <buffer> alreday already
-  ia <buffer> alwasy always
-  ia <buffer> alwats always
-  ia <buffer> alway always
-  ia <buffer> alwyas always
+  ia <buffer> alse else
+  ia <buffer> alsot also
   ia <buffer> amde made
   ia <buffer> amke make
   ia <buffer> amkes makes
-  ia <buffer> andteh and the
+  ia <buffer> anbd and
+  ia <buffer> andd and
   ia <buffer> andthe and the
   ia <buffer> anf and
-  ia <buffer> anothe another
   ia <buffer> ans and
-  ia <buffer> arond around
+  ia <buffer> aslo also
   ia <buffer> asthe as the
   ia <buffer> atthe at the
   ia <buffer> awya away
@@ -56,34 +47,24 @@ function! litecorrect#init(...)
   ia <buffer> bakc back
   ia <buffer> baout about
   ia <buffer> bcak back
-  ia <buffer> beacuse because
-  ia <buffer> becasue because
-  ia <buffer> becaus because
-  ia <buffer> becuase because
-  ia <buffer> becuse because
-  ia <buffer> befoer before
-  ia <buffer> betwen between
   ia <buffer> butthe but the
   ia <buffer> bve be
+  ia <buffer> cant can't
   ia <buffer> chaneg change
   ia <buffer> chanegs changes
   ia <buffer> chekc check
   ia <buffer> chnage change
   ia <buffer> claer clear
-  ia <buffer> claerly clearly
+  ia <buffer> cmo com
   ia <buffer> cna can
-  ia <buffer> comming coming
-  ia <buffer> comntain contain
-  ia <buffer> comntains contains
-  ia <buffer> comtain contain
-  ia <buffer> comtains contains
   ia <buffer> coudl could
-  ia <buffer> couldnt couldn't
-  ia <buffer> couldthe could the
   ia <buffer> cpoy copy
-  ia <buffer> deatils details
+  ia <buffer> cxan can
+  ia <buffer> dael deal
   ia <buffer> didnot did not
   ia <buffer> didnt didn't
+  ia <buffer> diea idea
+  ia <buffer> doens does
   ia <buffer> doese does
   ia <buffer> doesnt doesn't
   ia <buffer> doign doing
@@ -91,20 +72,26 @@ function! litecorrect#init(...)
   ia <buffer> donid doing
   ia <buffer> donig doing
   ia <buffer> dont don't
+  ia <buffer> eahc each
   ia <buffer> efel feel
   ia <buffer> ehr her
+  ia <buffer> ened need
+  ia <buffer> enxt next
   ia <buffer> esle else
+  ia <buffer> eyar year
   ia <buffer> eyt yet
-  ia <buffer> fianlly finally
+  ia <buffer> fatc fact
   ia <buffer> fidn find
+  ia <buffer> fiel file
   ia <buffer> firts first
   ia <buffer> fo of
-  ia <buffer> follwo follow
+  ia <buffer> fomr form
   ia <buffer> fora for a
   ia <buffer> forthe for the
   ia <buffer> foudn found
   ia <buffer> frmo from
   ia <buffer> fro for
+  ia <buffer> frome from
   ia <buffer> fromthe from the
   ia <buffer> fwe few
   ia <buffer> gerat great
@@ -112,22 +99,21 @@ function! litecorrect#init(...)
   ia <buffer> goign going
   ia <buffer> gonig going
   ia <buffer> gruop group
-  ia <buffer> gruops groups
   ia <buffer> grwo grow
   ia <buffer> hadbeen had been
   ia <buffer> haev have
   ia <buffer> hasbeen has been
-  ia <buffer> hasnt hasn't
   ia <buffer> havebeen have been
-  ia <buffer> haveing having
   ia <buffer> hda had
   ia <buffer> hewas he was
   ia <buffer> hge he
   ia <buffer> hlep help
+  ia <buffer> holf hold
   ia <buffer> hsa has
   ia <buffer> hsi his
   ia <buffer> htat that
   ia <buffer> hte the
+  ia <buffer> hten then
   ia <buffer> htere there
   ia <buffer> htese these
   ia <buffer> htey they
@@ -136,12 +122,12 @@ function! litecorrect#init(...)
   ia <buffer> htis this
   ia <buffer> hvae have
   ia <buffer> hvaing having
+  ia <buffer> hvea have
   ia <buffer> hwich which
   ia <buffer> idae idea
   ia <buffer> idaes ideas
   ia <buffer> ihs his
-  ia <buffer> includ include
-  ia <buffer> insted instead
+  ia <buffer> inot into
   ia <buffer> inteh in the
   ia <buffer> inthe in the
   ia <buffer> inwhich in which
@@ -151,6 +137,7 @@ function! litecorrect#init(...)
   ia <buffer> iused used
   ia <buffer> iwll will
   ia <buffer> iwth with
+  ia <buffer> jstu just
   ia <buffer> jsut just
   ia <buffer> knwo know
   ia <buffer> knwon known
@@ -158,26 +145,32 @@ function! litecorrect#init(...)
   ia <buffer> konw know
   ia <buffer> konwn known
   ia <buffer> konws knows
-  ia <buffer> lenght length
+  ia <buffer> kwno know
+  ia <buffer> lastr last
+  ia <buffer> layed laid
   ia <buffer> liek like
   ia <buffer> liekd liked
   ia <buffer> liev live
   ia <buffer> likly likely
-  ia <buffer> littel little
-  ia <buffer> litttle little
   ia <buffer> liuke like
   ia <buffer> loev love
-  ia <buffer> lookign looking
-  ia <buffer> makeing making
+  ia <buffer> lsat last
+  ia <buffer> lveo love
+  ia <buffer> lvoe love
+  ia <buffer> mear mere
+  ia <buffer> mkae make
   ia <buffer> mkaes makes
-  ia <buffer> mkaing making
+  ia <buffer> mkea make
   ia <buffer> moeny money
   ia <buffer> mroe more
   ia <buffer> mysefl myself
   ia <buffer> myu my
   ia <buffer> nad and
   ia <buffer> nkow know
-  ia <buffer> nothign nothing
+  ia <buffer> nkwo know
+  ia <buffer> nmae name
+  ia <buffer> nowe now
+  ia <buffer> nto not
   ia <buffer> nver never
   ia <buffer> nwe new
   ia <buffer> nwo now
@@ -188,53 +181,38 @@ function! litecorrect#init(...)
   ia <buffer> ohter other
   ia <buffer> omre more
   ia <buffer> oneof one of
+  ia <buffer> onot not
   ia <buffer> onthe on the
   ia <buffer> onyl only
   ia <buffer> ot to
   ia <buffer> otehr other
   ia <buffer> otu out
   ia <buffer> outof out of
-  ia <buffer> overthe over the
   ia <buffer> owrk work
   ia <buffer> owuld would
+  ia <buffer> paide paid
   ia <buffer> partof part of
   ia <buffer> peice piece
-  ia <buffer> peolpe people
-  ia <buffer> peopel people
-  ia <buffer> perhasp perhaps
-  ia <buffer> perhpas perhaps
-  ia <buffer> poeple people
   ia <buffer> pwoer power
-  ia <buffer> realyl really
-  ia <buffer> reult result
-  ia <buffer> reveiw review
+  ia <buffer> rela real
+  ia <buffer> rulle rule
   ia <buffer> rwite write
   ia <buffer> saidthat said that
   ia <buffer> saidthe said the
+  ia <buffer> sasy says
   ia <buffer> seh she
   ia <buffer> shesaid she said
   ia <buffer> shoudl should
-  ia <buffer> shouldnt shouldn't
-  ia <buffer> showinf showing
-  ia <buffer> simalar similar
-  ia <buffer> similiar similar
   ia <buffer> sitll still
   ia <buffer> smae same
   ia <buffer> smoe some
   ia <buffer> soem some
   ia <buffer> sohw show
-  ia <buffer> soical social
-  ia <buffer> somethign something
-  ia <buffer> someting something
-  ia <buffer> somewaht somewhat
-  ia <buffer> somthing something
-  ia <buffer> somtimes sometimes
   ia <buffer> stnad stand
   ia <buffer> stpo stop
+  ia <buffer> syas says
   ia <buffer> tahn than
   ia <buffer> taht that
-  ia <buffer> talekd talked
-  ia <buffer> talkign talking
   ia <buffer> tath that
   ia <buffer> teh the
   ia <buffer> tehn then
@@ -242,79 +220,101 @@ function! litecorrect#init(...)
   ia <buffer> tghe the
   ia <buffer> tghis this
   ia <buffer> thansk thanks
+  ia <buffer> thast that
   ia <buffer> thats that's
   ia <buffer> thatthe that the
   ia <buffer> thenew the new
   ia <buffer> theri their
   ia <buffer> thesame the same
-  ia <buffer> theyll they'll
-  ia <buffer> theyve they've
   ia <buffer> thgat that
   ia <buffer> thge the
   ia <buffer> thier their
-  ia <buffer> thigsn things
+  ia <buffer> thign thing
   ia <buffer> thme them
+  ia <buffer> thn then
   ia <buffer> thna than
   ia <buffer> thne then
   ia <buffer> thnig thing
-  ia <buffer> thnigs things
   ia <buffer> thre there
   ia <buffer> thsi this
   ia <buffer> thsoe those
   ia <buffer> thta that
+  ia <buffer> thyat that
+  ia <buffer> tiem time
   ia <buffer> tihs this
   ia <buffer> timne time
+  ia <buffer> tiome time
   ia <buffer> tje the
   ia <buffer> tjhe the
   ia <buffer> tkae take
   ia <buffer> tkaes takes
   ia <buffer> tkaing taking
   ia <buffer> todya today
+  ia <buffer> toke took
   ia <buffer> tothe to the
   ia <buffer> towrad toward
+  ia <buffer> tpyo typo
   ia <buffer> tryed tried
   ia <buffer> tthe the
+  ia <buffer> twon town
+  ia <buffer> twpo two
   ia <buffer> tyhat that
   ia <buffer> tyhe the
-  ia <buffer> unliek unlike
+  ia <buffer> tyhe they
+  ia <buffer> uise use
   ia <buffer> useing using
+  ia <buffer> vell well
   ia <buffer> veyr very
   ia <buffer> vrey very
+  ia <buffer> vyer very
+  ia <buffer> vyre very
   ia <buffer> waht what
-  ia <buffer> wasnt wasn't
+  ia <buffer> wass was
   ia <buffer> watn want
-  ia <buffer> wehn what
+  ia <buffer> weas was
+  ia <buffer> wehn when
   ia <buffer> werre were
+  ia <buffer> whant want
   ia <buffer> whcih which
   ia <buffer> wherre where
   ia <buffer> whic which
   ia <buffer> whihc which
+  ia <buffer> whith with
+  ia <buffer> whn when
   ia <buffer> whta what
+  ia <buffer> wief wife
+  ia <buffer> wih with
   ia <buffer> wihch which
   ia <buffer> wiht with
   ia <buffer> willbe will be
+  ia <buffer> wille will
+  ia <buffer> willk will
   ia <buffer> witha with a
   ia <buffer> withe with
+  ia <buffer> withh with
+  ia <buffer> witht with
   ia <buffer> withthe with the
+  ia <buffer> witn with
   ia <buffer> wiull will
   ia <buffer> wnat want
-  ia <buffer> wnated wanted
   ia <buffer> wnats wants
   ia <buffer> woh who
   ia <buffer> wohle whole
   ia <buffer> wokr work
   ia <buffer> woudl would
   ia <buffer> wouldbe would be
-  ia <buffer> wouldnt wouldn't
   ia <buffer> wrod word
   ia <buffer> wroet wrote
+  ia <buffer> wrok work
   ia <buffer> wtih with
   ia <buffer> wuould would
   ia <buffer> wya way
+  ia <buffer> yaer year
   ia <buffer> yera year
   ia <buffer> yoiu you
   ia <buffer> youare you are
   ia <buffer> youve you've
+  ia <buffer> yrea year
   ia <buffer> ytou you
   ia <buffer> yuo you
   ia <buffer> yuor your
