@@ -69,7 +69,6 @@ function! litecorrect#init(...)
   ia <buffer> doesnt doesn't
   ia <buffer> doign doing
   ia <buffer> doimg doing
-  ia <buffer> donid doing
   ia <buffer> donig doing
   ia <buffer> dont don't
   ia <buffer> eahc each
@@ -78,6 +77,7 @@ function! litecorrect#init(...)
   ia <buffer> ened need
   ia <buffer> enxt next
   ia <buffer> esle else
+  ia <buffer> ew we
   ia <buffer> eyar year
   ia <buffer> eyt yet
   ia <buffer> fatc fact
@@ -211,6 +211,7 @@ function! litecorrect#init(...)
   ia <buffer> stnad stand
   ia <buffer> stpo stop
   ia <buffer> syas says
+  ia <buffer> ta at
   ia <buffer> tahn than
   ia <buffer> taht that
   ia <buffer> tath that
@@ -240,6 +241,8 @@ function! litecorrect#init(...)
   ia <buffer> thsoe those
   ia <buffer> thta that
   ia <buffer> thyat that
+  ia <buffer> thye they
+  ia <buffer> ti it
   ia <buffer> tiem time
   ia <buffer> tihs this
   ia <buffer> timne time
@@ -256,7 +259,7 @@ function! litecorrect#init(...)
   ia <buffer> tpyo typo
   ia <buffer> tryed tried
   ia <buffer> tthe the
-  ia <buffer> twon town
+  ia <buffer> ture true
   ia <buffer> twpo two
   ia <buffer> tyhat that
   ia <buffer> tyhe the
@@ -266,8 +269,6 @@ function! litecorrect#init(...)
   ia <buffer> vell well
   ia <buffer> veyr very
   ia <buffer> vrey very
-  ia <buffer> vyer very
-  ia <buffer> vyre very
   ia <buffer> waht what
   ia <buffer> wass was
   ia <buffer> watn want
@@ -282,7 +283,6 @@ function! litecorrect#init(...)
   ia <buffer> whith with
   ia <buffer> whn when
   ia <buffer> whta what
-  ia <buffer> wief wife
   ia <buffer> wih with
   ia <buffer> wihch which
   ia <buffer> wiht with
