@@ -64,15 +64,19 @@ there’s a conflict, your correction will prevail.
 
 ### Correct previous misspelling
 
-A handy command to force the top correction on the first misspelled word before
-the cursor. Add to your `.vimrc` with a key mapping of your choice:
+To augment _litecorrect_ you may find the following command useful.
+It forces the top-ranked correction on the first misspelled word 
+before the cursor. 
+
+Add to your `.vimrc` with a key mapping of your choice:
 
 ```vim
 nnoremap <C-s> [s1z=<c-o>
 inoremap <C-s> <c-g>u<Esc>[s1z=`]A<c-g>u
 ```
 
-This will preserve undo points.
+It generates a fresh undo point prior to the correction so 
+that you can conveniently undo if necessary.
 
 Note that _litecorrect_ does not map any keys.
 
