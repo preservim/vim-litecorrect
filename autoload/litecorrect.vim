@@ -18,12 +18,17 @@ function! s:unicode_enabled()
 endfunction
 
 function! litecorrect#init(...)
+
+  ia <buffer> Iam I am
   ia <buffer> Im I'm
   ia <buffer> TEh The
+  ia <buffer> THat That
+  ia <buffer> THe The
   ia <buffer> Teh The
   ia <buffer> abotu about
   ia <buffer> acn can
   ia <buffer> adn and
+  ia <buffer> aer are
   ia <buffer> agian again
   ia <buffer> ahev have
   ia <buffer> ahve have
@@ -36,9 +41,9 @@ function! litecorrect#init(...)
   ia <buffer> amkes makes
   ia <buffer> anbd and
   ia <buffer> andd and
-  ia <buffer> andthe and the
   ia <buffer> anf and
   ia <buffer> ans and
+  ia <buffer> aobut about
   ia <buffer> aslo also
   ia <buffer> asthe as the
   ia <buffer> atthe at the
@@ -47,19 +52,21 @@ function! litecorrect#init(...)
   ia <buffer> bakc back
   ia <buffer> baout about
   ia <buffer> bcak back
-  ia <buffer> butthe but the
+  ia <buffer> beacuse because
+  ia <buffer> becuase because
   ia <buffer> bve be
   ia <buffer> cant can't
   ia <buffer> chaneg change
   ia <buffer> chanegs changes
   ia <buffer> chekc check
   ia <buffer> chnage change
+  ia <buffer> chnaged changed
+  ia <buffer> chnages changes
   ia <buffer> claer clear
   ia <buffer> cmo com
   ia <buffer> cna can
   ia <buffer> coudl could
   ia <buffer> cpoy copy
-  ia <buffer> cxan can
   ia <buffer> dael deal
   ia <buffer> didnot did not
   ia <buffer> didnt didn't
@@ -74,6 +81,7 @@ function! litecorrect#init(...)
   ia <buffer> eahc each
   ia <buffer> efel feel
   ia <buffer> ehr her
+  ia <buffer> emial email
   ia <buffer> ened need
   ia <buffer> enxt next
   ia <buffer> esle else
@@ -84,6 +92,7 @@ function! litecorrect#init(...)
   ia <buffer> fidn find
   ia <buffer> fiel file
   ia <buffer> firts first
+  ia <buffer> flase false
   ia <buffer> fo of
   ia <buffer> fomr form
   ia <buffer> fora for a
@@ -100,12 +109,8 @@ function! litecorrect#init(...)
   ia <buffer> gonig going
   ia <buffer> gruop group
   ia <buffer> grwo grow
-  ia <buffer> hadbeen had been
   ia <buffer> haev have
-  ia <buffer> hasbeen has been
-  ia <buffer> havebeen have been
   ia <buffer> hda had
-  ia <buffer> hewas he was
   ia <buffer> hge he
   ia <buffer> hlep help
   ia <buffer> holf hold
@@ -132,6 +137,7 @@ function! litecorrect#init(...)
   ia <buffer> inthe in the
   ia <buffer> inwhich in which
   ia <buffer> isthe is the
+  ia <buffer> isze size
   ia <buffer> itis it is
   ia <buffer> itwas it was
   ia <buffer> iused used
@@ -146,18 +152,21 @@ function! litecorrect#init(...)
   ia <buffer> konwn known
   ia <buffer> konws knows
   ia <buffer> kwno know
+  ia <buffer> laod load
   ia <buffer> lastr last
   ia <buffer> layed laid
   ia <buffer> liek like
   ia <buffer> liekd liked
   ia <buffer> liev live
   ia <buffer> likly likely
+  ia <buffer> ling long
   ia <buffer> liuke like
   ia <buffer> loev love
   ia <buffer> lsat last
   ia <buffer> lveo love
   ia <buffer> lvoe love
   ia <buffer> mear mere
+  ia <buffer> mial mail
   ia <buffer> mkae make
   ia <buffer> mkaes makes
   ia <buffer> mkea make
@@ -181,7 +190,6 @@ function! litecorrect#init(...)
   ia <buffer> ohter other
   ia <buffer> omre more
   ia <buffer> oneof one of
-  ia <buffer> onot not
   ia <buffer> onthe on the
   ia <buffer> onyl only
   ia <buffer> ot to
@@ -191,23 +199,23 @@ function! litecorrect#init(...)
   ia <buffer> owrk work
   ia <buffer> owuld would
   ia <buffer> paide paid
-  ia <buffer> partof part of
   ia <buffer> peice piece
+  ia <buffer> puhs push
   ia <buffer> pwoer power
   ia <buffer> rela real
   ia <buffer> rulle rule
   ia <buffer> rwite write
-  ia <buffer> saidthat said that
-  ia <buffer> saidthe said the
   ia <buffer> sasy says
   ia <buffer> seh she
-  ia <buffer> shesaid she said
   ia <buffer> shoudl should
   ia <buffer> sitll still
+  ia <buffer> sleect select
   ia <buffer> smae same
   ia <buffer> smoe some
+  ia <buffer> sned send
   ia <buffer> soem some
   ia <buffer> sohw show
+  ia <buffer> soze size
   ia <buffer> stnad stand
   ia <buffer> stpo stop
   ia <buffer> syas says
@@ -224,9 +232,7 @@ function! litecorrect#init(...)
   ia <buffer> thast that
   ia <buffer> thats that's
   ia <buffer> thatthe that the
-  ia <buffer> thenew the new
   ia <buffer> theri their
-  ia <buffer> thesame the same
   ia <buffer> thgat that
   ia <buffer> thge the
   ia <buffer> thier their
@@ -256,7 +262,6 @@ function! litecorrect#init(...)
   ia <buffer> toke took
   ia <buffer> tothe to the
   ia <buffer> towrad toward
-  ia <buffer> tpyo typo
   ia <buffer> tryed tried
   ia <buffer> tthe the
   ia <buffer> ture true
@@ -265,8 +270,6 @@ function! litecorrect#init(...)
   ia <buffer> tyhe the
   ia <buffer> tyhe they
   ia <buffer> uise use
-  ia <buffer> useing using
-  ia <buffer> vell well
   ia <buffer> veyr very
   ia <buffer> vrey very
   ia <buffer> waht what
@@ -275,7 +278,6 @@ function! litecorrect#init(...)
   ia <buffer> weas was
   ia <buffer> wehn when
   ia <buffer> werre were
-  ia <buffer> whant want
   ia <buffer> whcih which
   ia <buffer> wherre where
   ia <buffer> whic which
@@ -287,7 +289,6 @@ function! litecorrect#init(...)
   ia <buffer> wihch which
   ia <buffer> wiht with
   ia <buffer> willbe will be
-  ia <buffer> wille will
   ia <buffer> willk will
   ia <buffer> witha with a
   ia <buffer> withe with
@@ -302,7 +303,6 @@ function! litecorrect#init(...)
   ia <buffer> wohle whole
   ia <buffer> wokr work
   ia <buffer> woudl would
-  ia <buffer> wouldbe would be
   ia <buffer> wrod word
   ia <buffer> wroet wrote
   ia <buffer> wrok work
@@ -313,6 +313,7 @@ function! litecorrect#init(...)
   ia <buffer> yera year
   ia <buffer> yoiu you
   ia <buffer> youare you are
+  ia <buffer> youre you're
   ia <buffer> youve you've
   ia <buffer> yrea year
   ia <buffer> ytou you
