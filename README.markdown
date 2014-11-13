@@ -64,7 +64,7 @@ there’s a conflict, your correction will prevail.
 
 ### Correct previous misspelling
 
-To augment _litecorrect_ you may find the following command useful.
+To augment _litecorrect_ you may find the following key mapping useful.
 It forces the top-ranked correction on the first misspelled word 
 before the cursor. 
 
