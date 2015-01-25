@@ -80,6 +80,7 @@ function! litecorrect#init(...)
   ia <buffer> dont don't
   ia <buffer> eahc each
   ia <buffer> efel feel
+  ia <buffer> ehlp help
   ia <buffer> ehr her
   ia <buffer> emial email
   ia <buffer> ened need
@@ -224,7 +225,9 @@ function! litecorrect#init(...)
   ia <buffer> taht that
   ia <buffer> tath that
   ia <buffer> teh the
+  ia <buffer> tehir their
   ia <buffer> tehn then
+  ia <buffer> tehre there
   ia <buffer> tehy they
   ia <buffer> tghe the
   ia <buffer> tghis this
@@ -259,10 +262,8 @@ function! litecorrect#init(...)
   ia <buffer> tkaes takes
   ia <buffer> tkaing taking
   ia <buffer> todya today
-  ia <buffer> toke took
   ia <buffer> tothe to the
   ia <buffer> towrad toward
-  ia <buffer> tryed tried
   ia <buffer> tthe the
   ia <buffer> ture true
   ia <buffer> twpo two
@@ -282,7 +283,6 @@ function! litecorrect#init(...)
   ia <buffer> wherre where
   ia <buffer> whic which
   ia <buffer> whihc which
-  ia <buffer> whith with
   ia <buffer> whn when
   ia <buffer> whta what
   ia <buffer> wih with
