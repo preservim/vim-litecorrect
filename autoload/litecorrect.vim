@@ -119,6 +119,7 @@ function! litecorrect#init(...)
   ia <buffer> hsi his
   ia <buffer> htat that
   ia <buffer> hte the
+  ia <buffer> htem them
   ia <buffer> hten then
   ia <buffer> htere there
   ia <buffer> htese these
@@ -173,6 +174,7 @@ function! litecorrect#init(...)
   ia <buffer> mkea make
   ia <buffer> moeny money
   ia <buffer> mroe more
+  ia <buffer> msut must
   ia <buffer> mysefl myself
   ia <buffer> myu my
   ia <buffer> nad and
@@ -235,6 +237,7 @@ function! litecorrect#init(...)
   ia <buffer> thast that
   ia <buffer> thats that's
   ia <buffer> thatthe that the
+  ia <buffer> theh then
   ia <buffer> theri their
   ia <buffer> thgat that
   ia <buffer> thge the
@@ -312,6 +315,7 @@ function! litecorrect#init(...)
   ia <buffer> yaer year
   ia <buffer> yera year
   ia <buffer> yoiu you
+  ia <buffer> yoru your
   ia <buffer> youare you are
   ia <buffer> youre you're
   ia <buffer> youve you've
