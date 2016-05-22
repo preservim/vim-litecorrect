@@ -111,6 +111,8 @@ function! litecorrect#init(...)
   ia <buffer> gruop group
   ia <buffer> grwo grow
   ia <buffer> haev have
+  ia <buffer> hasa has a
+  ia <buffer> havea have a
   ia <buffer> hda had
   ia <buffer> hge he
   ia <buffer> hlep help
@@ -167,6 +169,7 @@ function! litecorrect#init(...)
   ia <buffer> lsat last
   ia <buffer> lveo love
   ia <buffer> lvoe love
+  ia <buffer> mcuh much
   ia <buffer> mear mere
   ia <buffer> mial mail
   ia <buffer> mkae make
@@ -175,6 +178,8 @@ function! litecorrect#init(...)
   ia <buffer> moeny money
   ia <buffer> mroe more
   ia <buffer> msut must
+  ia <buffer> muhc much
+  ia <buffer> muts must
   ia <buffer> mysefl myself
   ia <buffer> myu my
   ia <buffer> nad and
