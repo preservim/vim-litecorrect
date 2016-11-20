@@ -119,6 +119,7 @@ function! litecorrect#init(...)
   ia <buffer> holf hold
   ia <buffer> hsa has
   ia <buffer> hsi his
+  ia <buffer> htan than
   ia <buffer> htat that
   ia <buffer> hte the
   ia <buffer> htem them
@@ -133,9 +134,11 @@ function! litecorrect#init(...)
   ia <buffer> hvaing having
   ia <buffer> hvea have
   ia <buffer> hwich which
+  ia <buffer> hwo how
   ia <buffer> idae idea
   ia <buffer> idaes ideas
   ia <buffer> ihs his
+  ia <buffer> ina in a
   ia <buffer> inot into
   ia <buffer> inteh in the
   ia <buffer> inthe in the
@@ -192,6 +195,7 @@ function! litecorrect#init(...)
   ia <buffer> nwe new
   ia <buffer> nwo now
   ia <buffer> ocur occur
+  ia <buffer> ofa of a
   ia <buffer> ofits of its
   ia <buffer> ofthe of the
   ia <buffer> oging going

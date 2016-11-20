@@ -37,8 +37,13 @@ May require a recent version of Vim.
 
 ## Installation
 
-Install using Pathogen, Vundle, Neobundle, or your favorite Vim package
-manager.
+_litecorrect_ is best installed using a Vim package manager, such
+as [Vundle][vnd], [Plug][plg], [NeoBundle][nbn], or [Pathogen][pth].
+
+[vnd]: https://github.com/gmarik/Vundle.vim
+[plg]: https://github.com/junegunn/vim-plug
+[nbn]: https://github.com/Shougo/neobundle.vim
+[pth]: https://github.com/tpope/vim-pathogen
 
 ## Configuration
 
