@@ -11,13 +11,13 @@ Features of this plugin:
 * Focused on the most common of typos
 * Pure Vimscript using the efficient `iabbrev`
 * Included auto-correct entries limited to 350 (in 2016) to ensure fast
-  loading (see **new** expansion policy below)
+  loading (see expansion policy below)
 * Buffer-scoped behavior (won’t touch global settings)
 
 Note that this plugin is not intended to be a replacement for teh spell
 checker in Vim. It’s best used with spell-check enabled.
 
-## Expansion policy (**NEW**)
+## Expansion policy
 
 Since it was created in 2013, _litecorrect_ has limited the number of
 default auto-correct entries (such as `teh`->`the`) to 300, avoiding the
@@ -62,9 +62,9 @@ in `markdown` and `textile` files, place in your `.vimrc`:
   augroup END
   ```
 
-Alternatively, you can build on the defaults by providing your own
-corrections. Note that the corrections are stored as key-value entries
-where the value is a list of the common misspellings for the key.
+Optionally, you can build on the defaults by providing your own corrections.
+Note that the corrections are stored as key-value entries where the value is
+a list of the common misspellings for the key.
 
   ```
   let user_dict = {
@@ -122,17 +122,16 @@ that's -> that’s
 
 ## Criteria to add (or modify) default entries
 
-Note that the number of default entries will be limited to 300 for fast
-loading.
+Note that the number of default entries will be limited for fast loading. See
+policy above.
 
-Suggestions for improving the defaults are welcome, but good evidence is
-needed that a suggested auto-correct entry is more common than the one it
-will replace.
+Suggestions for improving the defaults are welcome, but good evidence is needed
+that a suggested auto-correct entry adds value to the list.
 
 ## Related projects
 
-If load time performance isn’t an issue, you may seek a more
-comprehensive approach:
+If load time performance isn’t an issue, you can seek a more comprehensive
+approach:
 
 * [wordlist.vim](https://github.com/vim-scripts/wordlist.vim) - nearly 800 entries
 * [vim-autocorrect](https://github.com/panozzaj/vim-autocorrect) - over 12K entries!
