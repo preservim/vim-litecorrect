@@ -25,6 +25,7 @@ function! litecorrect#init(...)
   ia <buffer> THat That
   ia <buffer> THe The
   ia <buffer> Teh The
+  ia <buffer> Theyare They are
   ia <buffer> Youre You're
   ia <buffer> abotu about
   ia <buffer> aboutit about it
@@ -144,6 +145,8 @@ function! litecorrect#init(...)
   ia <buffer> inot into
   ia <buffer> inteh in the
   ia <buffer> inthe in the
+  ia <buffer> inthese in these
+  ia <buffer> inthis in this
   ia <buffer> inwhich in which
   ia <buffer> isthe is the
   ia <buffer> isze size
@@ -252,6 +255,7 @@ function! litecorrect#init(...)
   ia <buffer> thatthe that the
   ia <buffer> theh then
   ia <buffer> theri their
+  ia <buffer> theyare they are
   ia <buffer> thgat that
   ia <buffer> thge the
   ia <buffer> thier their
