@@ -1,7 +1,7 @@
 " ============================================================================
 " File:        litecorrect.vim
 " Description: autoload functions for vim-litecorrect plugin
-" Maintainer:  Reed Esau <github.com/reedes>
+" Maintainer:  preservim <https://github.com/preservim>
 " Created:     January 20, 2014
 " License:     The MIT License (MIT)
 " ============================================================================

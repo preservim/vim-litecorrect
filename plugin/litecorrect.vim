@@ -1,7 +1,7 @@
 " =============================================================================
 " File:        plugin/litecorrect.vim
 " Description: lightweight autocorrection for Vim
-" Maintainer:  Reed Esau <github.com/reedes>
+" Maintainer:  perservim <https://github.com/preservim>
 " Created:     January 20, 2014
 " License:     The MIT License (MIT)
 " =============================================================================

@@ -37,13 +37,15 @@ May require a recent version of Vim.
 
 ## Installation
 
-_litecorrect_ is best installed using a Vim package manager, such
-as [Vundle][vnd], [Plug][plg], [NeoBundle][nbn], or [Pathogen][pth].
+You can install _litecorrect_ using a Vim package manager, such as
+[Vundle][vnd], [Plug][plg], or [Pathogen][pth]. If you are using a recent
+verion of vim or neovim, you can also install using native package support.
+(See [:help packages][packages].)
 
 [vnd]: https://github.com/gmarik/Vundle.vim
 [plg]: https://github.com/junegunn/vim-plug
-[nbn]: https://github.com/Shougo/neobundle.vim
 [pth]: https://github.com/tpope/vim-pathogen
+[packages]: https://vimhelp.org/repeat.txt.html#packages
 
 ## Configuration
 
@@ -140,16 +142,15 @@ An alternative that builds on [tpope/vim-abolish][va]:
 
 * [vim-correction](https://github.com/jdelkins/vim-correction) - approx. 700 entries
 
-[va]: http://github.com/tpope/vim-abolish
+[va]: https://github.com/tpope/vim-abolish
 
 ## See also
 
-If you find this plugin useful, you may want to check out these others by
-[@reedes][re]:
+If you find this plugin useful, you may want to check out these others
+originally by [@reedes][re]:
 
 * [vim-colors-pencil][cp] - color scheme for Vim inspired by IA Writer
 * [vim-lexical][lx] - building on Vim’s spell-check and thesaurus/dictionary completion
-* [vim-one][vo] - make use of Vim’s _+clientserver_ capabilities
 * [vim-pencil][pn] - rethinking Vim as a tool for writers
 * [vim-textobj-quote][qu] - extends Vim to support typographic (‘curly’) quotes
 * [vim-textobj-sentence][ts] - improving on Vim's native sentence motion command
@@ -158,20 +159,21 @@ If you find this plugin useful, you may want to check out these others by
 * [vim-wordy][wo] - uncovering usage problems in writing
 * [vim-wordchipper][wc] - power tool for shredding text in Insert mode
 
-[re]: http://github.com/reedes
-[cp]: http://github.com/reedes/vim-colors-pencil
-[lx]: http://github.com/reedes/vim-lexical
-[vo]: http://github.com/reedes/vim-one
-[pn]: http://github.com/reedes/vim-pencil
-[ts]: http://github.com/reedes/vim-textobj-sentence
-[qu]: http://github.com/reedes/vim-textobj-quote
-[th]: http://github.com/reedes/vim-thematic
-[wh]: http://github.com/reedes/vim-wheel
-[wo]: http://github.com/reedes/vim-wordy
-[wc]: http://github.com/reedes/vim-wordchipper
+[re]: https://github.com/reedes
+[cp]: https://github.com/preservim/vim-colors-pencil
+[lx]: https://github.com/preservim/vim-lexical
+[vo]: https://github.com/preservim/vim-one
+[pn]: https://github.com/preservim/vim-pencil
+[ts]: https://github.com/preservim/vim-textobj-sentence
+[qu]: https://github.com/preservim/vim-textobj-quote
+[th]: https://github.com/preservim/vim-thematic
+[wh]: https://github.com/preservim/vim-wheel
+[wo]: https://github.com/preservim/vim-wordy
+[wc]: https://github.com/preservim/vim-wordchipper
 
 ## Future development
 
 If you’ve spotted a problem or have an idea on improving this plugin,
-please post it to the github project issue page.
+please post it to the [GitHub project issue page][issues].
 
+[issues]: https://github.com/preservim/vim-litecorrect/issues
