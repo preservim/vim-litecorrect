@@ -14,7 +14,7 @@ Features of this plugin:
   loading (see expansion policy below)
 * Buffer-scoped behavior (won’t touch global settings)
 
-Note that this plugin is not intended to be a replacement for teh spell
+Note that this plugin is not intended to be a replacement for the spell
 checker in Vim. It’s best used with spell-check enabled.
 
 ## Expansion policy
